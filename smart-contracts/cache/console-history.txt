@@ -1,0 +1,14 @@
+console.log("Number of records:", records.length);
+const records = await contract.getPatientRecords(hash);
+  .digest('hex');
+  .update('777777777776medchain-india-health-records-privacy-salt')
+const hash = crypto.createHash('sha256')
+const crypto = require('crypto');
+// Try to get records for a test Aadhaar
+console.log("Is authorized:", isAuth);
+const isAuth = await contract.authorizedHospitals("HOSPITAL_WALLET_ADDRESS");
+// Check if a hospital is authorized
+console.log("Total records:", total.toString());
+const total = await contract.totalRecords();
+// Check total records
+);  "0x506111Ead3Eb8d2011b841AcB603A749EFA34986"  "HealthRecords",const contract = await ethers.getContractAt(
